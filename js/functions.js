@@ -2,7 +2,7 @@
 
 
 
-var letter 
+var letter; 
 
 while (!letter) { 
 	letter = prompt('write an alphabetical letter');
@@ -10,18 +10,19 @@ while (!letter) {
 //(trace)
 console.log(letter);
 
-document.write(letter);
 
-for (var i = 0; i < 10; i++) {
-	if (letter == 'a','b','c') {
-	document.write('<br>' + letter);
-	}else{
-		document.write()
-};
-
-
-
+for (var i = 1; i < 11; i++) {
+	var c = 0;
+	while (c != i) {
+	document.write(letter);
+	c++
+	}
+	document.write('<br>')
 }
+
+
+
+
 
 
 
