@@ -28,7 +28,7 @@ var writeLetterMultipleTimes = function () {
 	for (var i = 0; i < 5; i++) {
 		document.write('<strong>mike</strong><br>');
 	if (letter == '') {
-		document.write('please write letter "A"');
+		document.write('That is an awesome name!');
 	}else{
 		document.write("I dont like your name");
 	}
