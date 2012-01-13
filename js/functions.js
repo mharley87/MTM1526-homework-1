@@ -13,29 +13,13 @@ console.log(letter);
 document.write(letter);
 
 for (var i = 0; i < 10; i++) {
-	document.write('<br>' + i);
-
-}
-
-function isNameCool () {
-	var name = prompt ('What is your name?');
-	
-
-
-isNameCool();
-
-var writeLetterMultipleTimes = function () {
-	for (var i = 0; i < 5; i++) {
-		document.write('<strong>mike</strong><br>');
-	if (letter == '') {
-		document.write('That is an awesome name!');
+	if (letter == 'a','b','c') {
+	document.write('<br>' + letter);
 	}else{
-		document.write("I dont like your name");
-	}
-}
+		document.write()
 };
 
-writeLtterMultipleTimes ();
+
 
 }
 
